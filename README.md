@@ -1,10 +1,14 @@
 # Getting Started
-
 - This project Generate a Stock Market Prices Randomly. 
   - Based in a Kotlin and Reactor Spring Boot 
 - Utilize SSE MediaType.TEXT_EVENT_STREAM_VALUE to update http client dynamically
 * [MOZILA_SSE](https://developer.mozilla.org/pt-BR/docs/Web/API/Server-sent_events/Using_server-sent_events)
 * [W3C_EVENT_STREAM](https://html.spec.whatwg.org/multipage/iana.html#text/event-stream)
+
+
+    -Run project
+      ./gradlew bootRun
+      $> http://localhost:8080/stocks/DEMO
 
 
 
